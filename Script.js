@@ -33,8 +33,7 @@ function saveFormData() {
     // Save the data in localStorage
     localStorage.setItem('studentData', JSON.stringify(studentData));
 
-    // Redirect to home.html
-    window.location.href = 'home.html';
+
 }
 
 // Function to populate the table in home.html with data from localStorage
